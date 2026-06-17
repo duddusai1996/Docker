@@ -1,6 +1,6 @@
 ARG version
 FROM almalinux:${version:-8}
-ARG COURSE="Docker" \
+ENV COURSE="Docker" \
     TRAINER="Sivakumar" \
     DURATION="10HRS" \
     AUTHOR="joindevops"
