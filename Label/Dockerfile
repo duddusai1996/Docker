@@ -1,2 +1,3 @@
 FROM redhat/ubi9
-LABEL COURSE="Docker" \ TRAINER="SAI"
+LABEL COURSE="Docker" \
+TRAINER="SAI"
